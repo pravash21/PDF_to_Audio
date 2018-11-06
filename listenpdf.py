@@ -1,9 +1,10 @@
 import PyPDF2
 import os
+import easygui
 from gtts import gTTS
 import re
-# Replace file path with the location of pdf u want to listen
-file_path = 'C:\\Users\\DELL\\Downloads\\xyz.pdf'
+file = easygui.fileopenbox(msg="Select your PDF", title="Select an PDF File",default="*.pdf",filetypes=["*.pdf",])
+file_path = file
 
 if(os.path.exists(file_path)):
     pass
