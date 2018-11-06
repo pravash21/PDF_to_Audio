@@ -3,7 +3,7 @@ import os
 import easygui
 from gtts import gTTS
 import re
-file = easygui.fileopenbox(msg="Select your PDF", title="Select an PDF File",default="*.pdf",filetypes=["*.pdf",])
+file = easygui.fileopenbox(msg="Select your PDF", title="Select a PDF File",default="*.pdf",filetypes=["*.pdf",])
 file_path = file
 
 if(os.path.exists(file_path)):
