@@ -2,4 +2,4 @@
 Python script to convert a pdf file into mp3 file.
 
 
-Make sure you have PyPDF2 and gtts installed.
+Make sure you have PyPDF2,easygui and gtts installed.
